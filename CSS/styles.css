@@ -1,0 +1,50 @@
+body { 
+    background-color: orange;
+    font-size: 25px;
+    color: blue;
+}
+header {
+    background-color: #000080;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    dislay: inline-block;
+}
+nav a{
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+nav a.active{
+    font-weight: bold;
+    color: #555555;
+}
+h2 {
+    color: black;
+    font-size:40px;
+}
+h3 {
+    color: black;
+    font-size:32px;
+}
+p {
+    display: inline-block;
+    color: #555555;
+    font-size: 25px;
+    font-family: sans-serif
+}
+a {
+    color: purple;
+}
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed the viewport width */
+    max-height: 100%; /* Ensure the image doesn't exceed the viewport height */
+    display: block; /* Make the image behave like a block element */
+}
